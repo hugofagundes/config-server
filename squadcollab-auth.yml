@@ -23,6 +23,13 @@ security:
             resource-ids: resources
             scope: read,write
 
+            accessTokenUri: http://localhost:9092/oauth/token
+            userAuthorizationUri: http://localhost:9092/oauth/authorize
+            clientId: squadcollab
+            clientSecret: $2a$10$p9Pk0fQNAQSesI4vuvKA0OZanDD2
+        resource:
+            userInfoUri: http://localhost:9092/user
+
 spring:
     datasource:
         data: classpath:/sql/data.sql
