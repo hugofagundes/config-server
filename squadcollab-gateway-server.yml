@@ -1,6 +1,9 @@
 server:
   port: 9093
 
+zuul
+  prefix: /api
+
 eureka:
   instance:
     hostname: localhost
