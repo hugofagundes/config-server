@@ -1,7 +1,7 @@
 server:
   port: 9093
 
-zuul
+zuul:
   prefix: /api
 
 eureka:
