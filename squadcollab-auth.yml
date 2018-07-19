@@ -26,7 +26,7 @@ spring:
     datasource:
         data: classpath:/sql/data.sql
         driver-class-name: com.mysql.jdbc.Driver
-        password: root
+        password: 'root'
         platform: MySQL
         schema: classpath:/sql/schema.sql
         url: jdbc:mysql://localhost:3306/squadcollab_oauth?verifyServerCertificate=false&useSSL=false&requireSSL=false
