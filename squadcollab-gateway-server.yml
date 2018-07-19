@@ -6,13 +6,14 @@ zuul:
   
   #Zuul routes. Here for /student path, we are routing to localhost:8090 with extra path after that.
   routes:
-    student:
-      url: http://localhost:8090
+    ideia:
+      url: http://localhost:9094
  
   #Ribbon is auto integrated with Zuul and for this exercise we are not using that.
   ribbon:
     eureka:
       enabled: false
+
 
 eureka:
   instance:
