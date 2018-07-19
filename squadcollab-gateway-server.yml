@@ -13,9 +13,6 @@ zuul:
   ribbon:
     eureka:
       enabled: false
- 
-#Will start the gateway server @8080
-server.port=8080
 
 eureka:
   instance:
