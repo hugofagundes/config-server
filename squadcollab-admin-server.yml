@@ -5,7 +5,6 @@ eureka:
   instance:
     hostname: localhost
     port: 9091
-    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
   client:
     registryFetchIntervalSeconds: 5
     registerWithEureka: true
